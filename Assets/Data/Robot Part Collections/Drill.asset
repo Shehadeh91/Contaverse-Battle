@@ -1,0 +1,258 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc7f1270c623f2d4b47d4981d360574, type: 3}
+  m_Name: Drill
+  m_EditorClassIdentifier: 
+  robotPartCollectionItems:
+  - useTextAsset: 1
+    equipSlot: 0
+    jsonFiles: {fileID: 4900000, guid: d19983488f96dde269c5ec130a5a156b, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Drill_Head00
+        nftData:
+          name: Drill - Head
+          description: It is the Cerebral Processing System which responsible for
+            controlling the user's parts individually, the Cerebral Processing System
+            is also the user's main means of intaking visual and audible information.
+            Additionally, the Cerebral Processing System is also responsible for
+            relaying any reply via its built-in speakers.
+          image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Head00.png
+        equipSlotValue: Head
+        rarityValue: Common
+        healthValue: 1.5
+        speedValue: 1
+        damageValue: 1.5
+        defenseValue: 2
+        weightValue: 1.25
+        agilityValue: 1
+        primaryColorValue: E4942D
+        secondaryColorValue: EB8151
+        tertiaryColorValue: 
+        itemRarity: 1
+        equipSlot: 0
+        primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+        secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+        tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 1.5
+          - statName: DMG
+            Value: 1.5
+          - statName: DEF
+            Value: 2
+          - statName: WGT
+            Value: 1.25
+          - statName: SPD
+            Value: 1
+          - statName: AGL
+            Value: 1
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 1
+    jsonFiles: {fileID: 4900000, guid: 910e5013dc7c17429847cac7867a32a9, type: 3}
+    equippableData:
+      equipSlot: 1
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Drill_Body00
+        nftData:
+          name: Drill - Body
+          description: "It is the Central Chassis which housing the user's power
+            source as well as the majority of their vital systems, the Central Chassis
+            makes up the main body of the user. Larger and tougher chassis\u2019
+            can typically withstand additional damage, while smaller and more elegant
+            chassis\u2019 often provide their own advantages."
+          image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Body00.png
+        equipSlotValue: Body
+        rarityValue: Common
+        healthValue: 1.62
+        speedValue: 1.08
+        damageValue: 1.62
+        defenseValue: 2.16
+        weightValue: 1.35
+        agilityValue: 1.08
+        primaryColorValue: E4942D
+        secondaryColorValue: EB8151
+        tertiaryColorValue: 
+        itemRarity: 1
+        equipSlot: 1
+        primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+        secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+        tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 1.62
+          - statName: DMG
+            Value: 1.62
+          - statName: DEF
+            Value: 2.16
+          - statName: WGT
+            Value: 1.35
+          - statName: SPD
+            Value: 1.08
+          - statName: AGL
+            Value: 1.08
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 2
+    jsonFiles: {fileID: 4900000, guid: 317016c65dbadea9a932d8c679480e69, type: 3}
+    equippableData:
+      equipSlot: 2
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Drill_Arm00
+        nftData:
+          name: Drill - Arm 0
+          description: "The Secondary Handling Unit is designated for the user\u2019s
+            secondary weapon. While it may not have the reinforced strength that
+            its counterpart possesses, the Secondary Handling Unit is identical in
+            virtually every other way."
+          image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Arm00.png
+        equipSlotValue: LeftArm
+        rarityValue: Common
+        healthValue: 0.9
+        speedValue: 0.6
+        damageValue: 0.9
+        defenseValue: 1.2
+        weightValue: 0.75
+        agilityValue: 0
+        primaryColorValue: E4942D
+        secondaryColorValue: EB8151
+        tertiaryColorValue: 
+        itemRarity: 1
+        equipSlot: 2
+        primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+        secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+        tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 0.9
+          - statName: DMG
+            Value: 0.9
+          - statName: DEF
+            Value: 1.2
+          - statName: WGT
+            Value: 0.75
+          - statName: SPD
+            Value: 0.6
+          - statName: AGL
+            Value: 0
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 3
+    jsonFiles: {fileID: 4900000, guid: 7c05dd2fa4ef995009e9f000a7669529, type: 3}
+    equippableData:
+      equipSlot: 3
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Drill_Arm01
+        nftData:
+          name: Drill - Arm 1
+          description: "The Primary Handling Unit is designated for the user\u2019s
+            primary weapon. With additional reinforcements built-in, the Primary
+            Handling Unit is equipped to wield larger, heavier, and more powerful
+            tools and weaponry."
+          image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Arm01.png
+        equipSlotValue: LeftArm
+        rarityValue: Common
+        healthValue: 0.9
+        speedValue: 0.6
+        damageValue: 0.9
+        defenseValue: 1.2
+        weightValue: 0.75
+        agilityValue: 0.6
+        primaryColorValue: E4942D
+        secondaryColorValue: EB8151
+        tertiaryColorValue: 
+        itemRarity: 1
+        equipSlot: 2
+        primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+        secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+        tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 0.9
+          - statName: DMG
+            Value: 0.9
+          - statName: DEF
+            Value: 1.2
+          - statName: WGT
+            Value: 0.75
+          - statName: SPD
+            Value: 0.6
+          - statName: AGL
+            Value: 0.6
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 4
+    jsonFiles: {fileID: 4900000, guid: 60231e6fb8716b33783dbd079140c9b4, type: 3}
+    equippableData:
+      equipSlot: 4
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Drill_Leg00
+        nftData:
+          name: Drill - Legs
+          description: "It is an Advanced Motion Assembly which responsible for the
+            user\u2019s overall movement, the Advanced Motion Assembly is essential.
+            With various designs allowing for better movement over different types
+            of terrain, the user\u2019s Advanced Motion Assembly should be chosen
+            with great care."
+          image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Legs00.png
+        equipSlotValue: Legs
+        rarityValue: Common
+        healthValue: 1.08
+        speedValue: 0.72
+        damageValue: 1.08
+        defenseValue: 1.44
+        weightValue: 0.9
+        agilityValue: 0.72
+        primaryColorValue: E4942D
+        secondaryColorValue: EB8151
+        tertiaryColorValue: 
+        itemRarity: 1
+        equipSlot: 4
+        primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+        secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+        tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 1.08
+          - statName: DMG
+            Value: 1.08
+          - statName: DEF
+            Value: 1.44
+          - statName: WGT
+            Value: 0.9
+          - statName: SPD
+            Value: 0.72
+          - statName: AGL
+            Value: 0.72
+        behaviours: []
+        upgrades: []

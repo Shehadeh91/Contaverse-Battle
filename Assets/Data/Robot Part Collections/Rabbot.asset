@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc7f1270c623f2d4b47d4981d360574, type: 3}
+  m_Name: Rabbot
+  m_EditorClassIdentifier: 
+  robotPartCollectionItems:
+  - useTextAsset: 1
+    equipSlot: 0
+    jsonFiles: {fileID: 4900000, guid: ee1ecff62273b623ba24dc7073dcc0f0, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Moonboy_Head00
+        equipSlotValue: Head
+        rarityValue: Epic
+        healthValue: 3.75
+        speedValue: 0.75
+        damageValue: 1.5
+        defenseValue: 1.75
+        weightValue: 2.25
+        agilityValue: 0.75
+        primaryColorValue: D7CCCD
+        secondaryColorValue: CC6159
+        itemRarity: 3
+        equipSlot: 0
+        colors:
+        - {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+        - {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 3.75
+          - statName: DMG
+            Value: 1.5
+          - statName: DEF
+            Value: 1.75
+          - statName: WGT
+            Value: 2.25
+          - statName: SPD
+            Value: 0.75
+          - statName: AGL
+            Value: 0.75
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 1
+    jsonFiles: {fileID: 4900000, guid: dbf1aa5c22103c544a0c49393ee5e3af, type: 3}
+    equippableData:
+      equipSlot: 1
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Moonboy_Body00
+        equipSlotValue: Body
+        rarityValue: Epic
+        healthValue: 4.05
+        speedValue: 0.81
+        damageValue: 1.62
+        defenseValue: 1.89
+        weightValue: 2.43
+        agilityValue: 0.81
+        primaryColorValue: D7CCCD
+        secondaryColorValue: CC6159
+        itemRarity: 3
+        equipSlot: 1
+        colors:
+        - {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+        - {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 4.05
+          - statName: DMG
+            Value: 1.62
+          - statName: DEF
+            Value: 1.89
+          - statName: WGT
+            Value: 2.43
+          - statName: SPD
+            Value: 0.81
+          - statName: AGL
+            Value: 0.81
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 2
+    jsonFiles: {fileID: 4900000, guid: f5782dce5c7c7de36b8f041da3f9a3db, type: 3}
+    equippableData:
+      equipSlot: 2
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Moonboy_Arm00
+        equipSlotValue: LeftArm
+        rarityValue: Epic
+        healthValue: 2.25
+        speedValue: 0.45
+        damageValue: 0.9
+        defenseValue: 1.05
+        weightValue: 1.35
+        agilityValue: 0.45
+        primaryColorValue: D7CCCD
+        secondaryColorValue: CC6159
+        itemRarity: 3
+        equipSlot: 2
+        colors:
+        - {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+        - {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 2.25
+          - statName: DMG
+            Value: 0.9
+          - statName: DEF
+            Value: 1.05
+          - statName: WGT
+            Value: 1.35
+          - statName: SPD
+            Value: 0.45
+          - statName: AGL
+            Value: 0.45
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 3
+    jsonFiles: {fileID: 4900000, guid: f5782dce5c7c7de36b8f041da3f9a3db, type: 3}
+    equippableData:
+      equipSlot: 3
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Moonboy_Arm00
+        equipSlotValue: LeftArm
+        rarityValue: Epic
+        healthValue: 2.25
+        speedValue: 0.45
+        damageValue: 0.9
+        defenseValue: 1.05
+        weightValue: 1.35
+        agilityValue: 0.45
+        primaryColorValue: D7CCCD
+        secondaryColorValue: CC6159
+        itemRarity: 3
+        equipSlot: 2
+        colors:
+        - {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+        - {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 2.25
+          - statName: DMG
+            Value: 0.9
+          - statName: DEF
+            Value: 1.05
+          - statName: WGT
+            Value: 1.35
+          - statName: SPD
+            Value: 0.45
+          - statName: AGL
+            Value: 0.45
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 4
+    jsonFiles: {fileID: 4900000, guid: 9aea777824b4ecceaa29d7187c29178e, type: 3}
+    equippableData:
+      equipSlot: 4
+      nftID: 
+      robotPartData:
+        itemType: Robot Part
+        itemAddress: Moonboy_Leg00
+        equipSlotValue: Legs
+        rarityValue: Epic
+        healthValue: 2.7
+        speedValue: 0.54
+        damageValue: 1.08
+        defenseValue: 1.26
+        weightValue: 1.62
+        agilityValue: 0.54
+        primaryColorValue: D7CCCD
+        secondaryColorValue: CC6159
+        itemRarity: 3
+        equipSlot: 4
+        colors:
+        - {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+        - {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+        stats:
+          stats:
+          - statName: HP
+            Value: 2.7
+          - statName: DMG
+            Value: 1.08
+          - statName: DEF
+            Value: 1.26
+          - statName: WGT
+            Value: 1.62
+          - statName: SPD
+            Value: 0.54
+          - statName: AGL
+            Value: 0.54
+        behaviours: []
+        upgrades: []

@@ -1,0 +1,1068 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ccf793b7ca1cc645b9cd36d753b8e3c, type: 3}
+  m_Name: ApiReference
+  m_EditorClassIdentifier: 
+  url: https://www.contaverse.com/api/
+  queries:
+  - name: LoginQuery
+    type: 0
+    query: "query LoginQuery{\n    login(  email :\"test7@test.com\", password :\"test7\"
+      ){\n        token\n    }\n}"
+    queryString: login
+    returnType: AuthenticateResponse
+    queryOptions:
+    - _empty
+    - login
+    fields:
+    - index: 1
+      name: token
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: expiresIn
+        type: Int
+      - name: token
+        type: String
+      hasChanged: 0
+    isComplete: 1
+  - name: GetWalletLinkingStatusQuery
+    type: 0
+    query: "query GetWalletLinkingStatusQuery{\n    getUserInfo{\n        enjinData{\n           
+      isWalletLinked\n        }\n    }\n}"
+    queryString: getUserInfo
+    returnType: UserWithoutPassword
+    queryOptions:
+    - _empty
+    - login
+    - getUserInfo
+    fields:
+    - index: 8
+      name: enjinData
+      type: UserEnjinData
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      hasChanged: 0
+    - index: 3
+      name: isWalletLinked
+      type: Boolean
+      parentIndexes: 00000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    isComplete: 1
+  - name: GetUserFactionQuery
+    type: 0
+    query: "query GetUserFactionQuery{\n    getUserInfo{\n        faction\n    }\n}"
+    queryString: getUserInfo
+    returnType: UserWithoutPassword
+    queryOptions:
+    - _empty
+    - login
+    - getUserInfo
+    fields:
+    - index: 5
+      name: faction
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      hasChanged: 0
+    isComplete: 1
+  - name: GetAllUserInfoQuery
+    type: 0
+    query: "query GetAllUserInfoQuery{\n    getUserInfo{\n        userName\n       
+      displayName\n        email\n        acceptTerms\n        role\n        faction\n       
+      level\n        experience\n        enjinData{\n            enjinUserName\n           
+      enjinIdentityID\n            ethAddress\n            isWalletLinked\n           
+      linkingInfo{\n                qr\n                code\n            }\n       
+      }\n        chargeData{\n            isCharging\n            startedCharging\n           
+      chargeAmount\n        }\n        parts{\n            head\n            torso\n           
+      leftArm\n            rightArm\n            legs\n        }\n    }\n}"
+    queryString: getUserInfo
+    returnType: UserWithoutPassword
+    queryOptions:
+    - _empty
+    - login
+    - getUserInfo
+    - walletContents
+    fields:
+    - index: 0
+      name: userName
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 1
+      name: displayName
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 2
+      name: email
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 3
+      name: acceptTerms
+      type: Boolean
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 4
+      name: role
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 5
+      name: faction
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 6
+      name: level
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 7
+      name: experience
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 8
+      name: enjinData
+      type: UserEnjinData
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 0
+      name: enjinUserName
+      type: String
+      parentIndexes: 08000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    - index: 1
+      name: enjinIdentityID
+      type: Int
+      parentIndexes: 08000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    - index: 2
+      name: ethAddress
+      type: String
+      parentIndexes: 08000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    - index: 3
+      name: isWalletLinked
+      type: Boolean
+      parentIndexes: 08000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    - index: 4
+      name: linkingInfo
+      type: EnjinLinkingInfo
+      parentIndexes: 08000000
+      hasSubField: 1
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    - index: 0
+      name: qr
+      type: String
+      parentIndexes: 080000000d000000
+      hasSubField: 0
+      possibleFields:
+      - name: qr
+        type: String
+      - name: code
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: code
+      type: String
+      parentIndexes: 080000000d000000
+      hasSubField: 0
+      possibleFields:
+      - name: qr
+        type: String
+      - name: code
+        type: String
+      hasChanged: 0
+    - index: 9
+      name: chargeData
+      type: UserChargeData
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 0
+      name: isCharging
+      type: Boolean
+      parentIndexes: 10000000
+      hasSubField: 0
+      possibleFields:
+      - name: isCharging
+        type: Boolean
+      - name: startedCharging
+        type: Date
+      - name: chargeAmount
+        type: Int
+      hasChanged: 0
+    - index: 1
+      name: startedCharging
+      type: Date
+      parentIndexes: 10000000
+      hasSubField: 0
+      possibleFields:
+      - name: isCharging
+        type: Boolean
+      - name: startedCharging
+        type: Date
+      - name: chargeAmount
+        type: Int
+      hasChanged: 0
+    - index: 2
+      name: chargeAmount
+      type: Int
+      parentIndexes: 10000000
+      hasSubField: 0
+      possibleFields:
+      - name: isCharging
+        type: Boolean
+      - name: startedCharging
+        type: Date
+      - name: chargeAmount
+        type: Int
+      hasChanged: 0
+    - index: 10
+      name: parts
+      type: UserParts
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 0
+      name: head
+      type: String
+      parentIndexes: 14000000
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: torso
+      type: String
+      parentIndexes: 14000000
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 2
+      name: leftArm
+      type: String
+      parentIndexes: 14000000
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 3
+      name: rightArm
+      type: String
+      parentIndexes: 14000000
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 4
+      name: legs
+      type: String
+      parentIndexes: 14000000
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    isComplete: 1
+  - name: GetWalletContents
+    type: 0
+    query: "query GetWalletContents{\n    walletContents{\n        token{\n           
+      id\n            name\n            itemURI\n        }\n        index\n       
+      value\n    }\n}"
+    queryString: walletContents
+    returnType: WalletItem
+    queryOptions:
+    - _empty
+    - login
+    - getUserInfo
+    - walletContents
+    fields:
+    - index: 0
+      name: token
+      type: Token
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: token
+        type: Token
+      - name: index
+        type: String
+      - name: value
+        type: Int
+      hasChanged: 0
+    - index: 0
+      name: id
+      type: String
+      parentIndexes: 00000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: String
+      - name: name
+        type: String
+      - name: itemURI
+        type: String
+      - name: meltValue
+        type: BigInt
+      hasChanged: 0
+    - index: 1
+      name: name
+      type: String
+      parentIndexes: 00000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: String
+      - name: name
+        type: String
+      - name: itemURI
+        type: String
+      - name: meltValue
+        type: BigInt
+      hasChanged: 0
+    - index: 2
+      name: itemURI
+      type: String
+      parentIndexes: 00000000
+      hasSubField: 0
+      possibleFields:
+      - name: id
+        type: String
+      - name: name
+        type: String
+      - name: itemURI
+        type: String
+      - name: meltValue
+        type: BigInt
+      hasChanged: 0
+    - index: 1
+      name: index
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: token
+        type: Token
+      - name: index
+        type: String
+      - name: value
+        type: Int
+      hasChanged: 0
+    - index: 2
+      name: value
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: token
+        type: Token
+      - name: index
+        type: String
+      - name: value
+        type: Int
+      hasChanged: 0
+    isComplete: 1
+  mutations:
+  - name: RegisterMutation
+    type: 1
+    query: "mutation RegisterMutation{\n    register(  email :\"test@test.com\",
+      password :\"123\", userName :\"Test1\" ){\n        token\n    }\n}"
+    queryString: register
+    returnType: AuthenticateResponse
+    queryOptions:
+    - _empty
+    - register
+    - update
+    fields:
+    - index: 1
+      name: token
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: expiresIn
+        type: Int
+      - name: token
+        type: String
+      hasChanged: 0
+    isComplete: 1
+  - name: SetUserFaction
+    type: 1
+    query: "mutation UpdateMutation{\n    update(  faction :2 ){\n        success\n   
+      }\n}"
+    queryString: update
+    returnType: UpdateUserResponse
+    queryOptions:
+    - _empty
+    - register
+    - update
+    - startCharging
+    - stopCharging
+    - refreshEnjinLink
+    - setPlayerParts
+    fields:
+    - index: 0
+      name: success
+      type: Boolean
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: success
+        type: Boolean
+      hasChanged: 0
+    isComplete: 1
+  - name: RefreshLink
+    type: 1
+    query: "mutation RefreshLink{\n    refreshEnjinLink{\n        enjinData{\n           
+      isWalletLinked\n        }\n    }\n}"
+    queryString: refreshEnjinLink
+    returnType: UserWithoutPassword
+    queryOptions:
+    - _empty
+    - register
+    - update
+    - startCharging
+    - stopCharging
+    - refreshEnjinLink
+    - setPlayerParts
+    fields:
+    - index: 8
+      name: enjinData
+      type: UserEnjinData
+      parentIndexes: 
+      hasSubField: 1
+      possibleFields:
+      - name: userName
+        type: String
+      - name: displayName
+        type: String
+      - name: email
+        type: String
+      - name: acceptTerms
+        type: Boolean
+      - name: role
+        type: String
+      - name: faction
+        type: Int
+      - name: level
+        type: Int
+      - name: experience
+        type: Int
+      - name: enjinData
+        type: UserEnjinData
+      - name: chargeData
+        type: UserChargeData
+      - name: parts
+        type: UserParts
+      hasChanged: 0
+    - index: 3
+      name: isWalletLinked
+      type: Boolean
+      parentIndexes: 00000000
+      hasSubField: 0
+      possibleFields:
+      - name: enjinUserName
+        type: String
+      - name: enjinIdentityID
+        type: Int
+      - name: ethAddress
+        type: String
+      - name: isWalletLinked
+        type: Boolean
+      - name: linkingInfo
+        type: EnjinLinkingInfo
+      hasChanged: 0
+    isComplete: 1
+  - name: StartCharging
+    type: 1
+    query: "mutation StartCharging{\n    startCharging{\n        chargeAmount\n   
+      }\n}"
+    queryString: startCharging
+    returnType: UserChargeData
+    queryOptions:
+    - _empty
+    - register
+    - update
+    - startCharging
+    - stopCharging
+    - refreshEnjinLink
+    - setPlayerParts
+    fields:
+    - index: 2
+      name: chargeAmount
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: isCharging
+        type: Boolean
+      - name: startedCharging
+        type: Date
+      - name: chargeAmount
+        type: Int
+      hasChanged: 0
+    isComplete: 1
+  - name: StopCharging
+    type: 1
+    query: "mutation StopCharging{\n    stopCharging{\n        chargeAmount\n   
+      }\n}"
+    queryString: stopCharging
+    returnType: String
+    queryOptions:
+    - _empty
+    - register
+    - update
+    - startCharging
+    - stopCharging
+    - refreshEnjinLink
+    - setPlayerParts
+    fields:
+    - index: 2
+      name: chargeAmount
+      type: Int
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: isCharging
+        type: Boolean
+      - name: startedCharging
+        type: Date
+      - name: chargeAmount
+        type: Int
+      hasChanged: 0
+    isComplete: 1
+  - name: SetPlayerParts
+    type: 1
+    query: "mutation SetPlayerParts{\n    setPlayerParts(  setPlayerParts :{ head
+      :null, torso :null, leftArm :null, rightArm :null, legs :null} ){\n       
+      head\n        torso\n        leftArm\n        rightArm\n        legs\n    }\n}"
+    queryString: setPlayerParts
+    returnType: UserParts
+    queryOptions:
+    - _empty
+    - register
+    - update
+    - startCharging
+    - stopCharging
+    - refreshEnjinLink
+    - setPlayerParts
+    fields:
+    - index: 0
+      name: head
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 1
+      name: torso
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 2
+      name: leftArm
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 3
+      name: rightArm
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    - index: 4
+      name: legs
+      type: String
+      parentIndexes: 
+      hasSubField: 0
+      possibleFields:
+      - name: head
+        type: String
+      - name: torso
+        type: String
+      - name: leftArm
+        type: String
+      - name: rightArm
+        type: String
+      - name: legs
+        type: String
+      hasChanged: 0
+    isComplete: 1
+  subscriptions: []
+  loading: 0

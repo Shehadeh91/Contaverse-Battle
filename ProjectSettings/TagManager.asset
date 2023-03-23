@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Missile
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Navmesh
+  - Water
+  - UI
+  - Item Model Shop
+  - 
+  - Projectile
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Interaction
+  - 
+  - 
+  - 
+  - Shower
+  - 
+  - 
+  - 
+  - 
+  - DropArea
+  - Touchable
+  - Draggable
+  - Customization Main
+  - Customization Specific
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: World Space UI
+    uniqueID: 1387587605
+    locked: 0

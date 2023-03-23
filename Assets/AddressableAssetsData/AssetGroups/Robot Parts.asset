@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Robot Parts
+  m_EditorClassIdentifier: 
+  m_GroupName: Robot Parts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b99a0bb20fa03d27cacbd2c9e1843919
+  m_SerializeEntries:
+  - m_GUID: ca59a9ecee2634ba3973ce0c6ac6fef3
+    m_Address: Xoco - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leg
+    - Robot Part
+  - m_GUID: 4787f966bed0528f9b1204b5df813241
+    m_Address: Xoco - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Head
+    - Robot Part
+  - m_GUID: 3f4b746b37cd65083b732c0ef7826fd5
+    m_Address: Xoco - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 1410e8ea02de670afa974760c1a02db9
+    m_Address: Xoco - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: ad0897ba9378b0b688776423945083c4
+    m_Address: Drill - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: 6adb4b0ca550c7b56b73c2ffacc9494b
+    m_Address: Drill - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Head
+  - m_GUID: 6b7de2d45f2ff401db83dfa490ff03b6
+    m_Address: Drill - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Leg
+  - m_GUID: ac7d92f1291e4375fb4844b68e5d008f
+    m_Address: Drill - Arm 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: af6a4c54922eedb1fbe586d0095ed79e
+    m_Address: Drill - Arm 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 85d2b2b121962e415bb9fb736e39d78d
+    m_Address: Treble - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 3b5cadbdd1311ecddb4477cce3be1bec
+    m_Address: Treble - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: 2488e59dc97affd1394a0bc4e20f0b4f
+    m_Address: Treble - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Leg
+  - m_GUID: 6b33f619e35bf4f368a0892369ceb0d5
+    m_Address: Treble - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Head
+  - m_GUID: 2605ddf529c6ebeaba9779c98b865a1c
+    m_Address: Moonboy - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 5006e6855e56d2eb09d7baad8b9b5241
+    m_Address: Moonboy - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: 76e315ba260eb0218a7915343e4e8e18
+    m_Address: Moonboy - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Head
+  - m_GUID: ccb8451083dc7d359aafdd7b63827c3b
+    m_Address: Moonboy - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Leg
+  - m_GUID: 2227fe406a4198fa38fb9557513d133a
+    m_Address: D-Falt - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 7510a721439f3809f9c6cba78c3e6f22
+    m_Address: D-Falt - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: a563fb04fef85c063ad394a2b78545d7
+    m_Address: D-Falt - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Head
+  - m_GUID: 482cd1c8b4a6dd15697f1fd050670b89
+    m_Address: D-Falt - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Leg
+  - m_GUID: 0ade5001784ab8792b0cfb74dda5c2f7
+    m_Address: 47 Ronin - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Leg
+  - m_GUID: 99147d97b1eec33a8bf5d45ad3d9555b
+    m_Address: 47 Ronin - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Head
+  - m_GUID: ec2d566892312a3b9a9de1fece24115d
+    m_Address: 47 Ronin - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Body
+  - m_GUID: 4af936dcd47fa71acbb61cfeb61925d7
+    m_Address: 47 Ronin - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Robot Part
+    - Arm
+  - m_GUID: 86cb950ce918577189e311ecc5f42f9c
+    m_Address: Rabbot - Arm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Arm
+    - Robot Part
+  - m_GUID: 319ddeb7d8779fba29dd035991566fc2
+    m_Address: Rabbot - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Body
+    - Robot Part
+  - m_GUID: dafa8279ca7d4ff7882ebcee4956024c
+    m_Address: Rabbot - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Head
+    - Robot Part
+  - m_GUID: 0bd309651c9bf3ae183834743cff81b7
+    m_Address: Rabbot - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leg
+    - Robot Part
+  - m_GUID: ddbdec78c690fc157937f7f08d764df7
+    m_Address: Roboy - Body
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Body
+    - Robot Part
+  - m_GUID: 756de5d72094dd2d6bf89931de4322f4
+    m_Address: Roboy - Arm 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Arm
+    - Robot Part
+  - m_GUID: 11a857a99ee8f6051ae67b239db5abfc
+    m_Address: Roboy - Head
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Head
+    - Robot Part
+  - m_GUID: 6978297481f700d71bf63860f938fa4c
+    m_Address: Roboy - Legs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Leg
+    - Robot Part
+  - m_GUID: 8aef624df8ecc1f1cb45451bcfb4f082
+    m_Address: Roboy - Arm 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Arm
+    - Robot Part
+  - m_GUID: 84b8ad52dfd01f32fb72bd2b5668b66b
+    m_Address: Roboy - Arm 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Arm
+    - Robot Part
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f2441fc99fed8d85eb9cae40366ce230, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1fb5d880d959554eca9f46aabf03d71c, type: 2}
+    - {fileID: 11400000, guid: a409a741d4ed4146ebcde87987d56db6, type: 2}

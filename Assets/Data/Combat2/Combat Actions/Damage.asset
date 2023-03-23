@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe34b4a15d6b8d6288ec17e5718ff05, type: 3}
+  m_Name: Damage
+  m_EditorClassIdentifier: 
+  effectPriority: 0
+  useNormalizedTime: 1
+  time: 0.45
+  ignoreBlock: 0
+  ignoreDodge: 0

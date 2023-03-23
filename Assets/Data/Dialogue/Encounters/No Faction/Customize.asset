@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6bc653cbb11c27d9cd53f0c4d3ce86, type: 3}
+  m_Name: Customize
+  m_EditorClassIdentifier: 
+  startNodeId: 1797637424
+  dialogueRole: {fileID: 11400000, guid: 80800b10825da89ebb3d78613534141a, type: 2}
+  dialogueNodes:
+  - nodeId: 1797637424
+    dialogueText: Here you can customize yourself. The screen at the top shows you
+      the current stats of all your parts.
+    dialogueEmotion: 0
+    dialogueOptions: []
+  - nodeId: 1697986895
+    dialogueText: At the bottom you can browse through the categories and select
+      a part you want. When you're happy just drag it onto your robot!
+    dialogueEmotion: 0
+    dialogueOptions: []
+  - nodeId: 1913890649
+    dialogueText: You can turn your robot and inspect your parts from all angles
+      by sliding your finger over him.
+    dialogueEmotion: 0
+    dialogueOptions: []
+  - nodeId: 795060226
+    dialogueText: If you don't like a part you can just sell or trade it with other
+      players. And if you saw a really really cool part in a fight and want it immediately
+      you can also buy new parts from our website.
+    dialogueEmotion: 0
+    dialogueOptions: []
+  - nodeId: 1789529200
+    dialogueText: Share your designs with other players on our discord. It's not
+      bad to brag about it if you look so incredibly cool!
+    dialogueEmotion: 0
+    dialogueOptions: []

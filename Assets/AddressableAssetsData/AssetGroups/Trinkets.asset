@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Trinkets
+  m_EditorClassIdentifier: 
+  m_GroupName: Trinkets
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b3bedbe5af2ccfff4b998e2e6938fc71
+  m_SerializeEntries:
+  - m_GUID: f7de511a69bbbb34c9dc2e2027123e78
+    m_Address: Delta Necklace
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Trinket
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f2441fc99fed8d85eb9cae40366ce230, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 032cd890eb6b09195b5d2f57247e4f3f, type: 2}
+    - {fileID: 11400000, guid: 467b72e4b9c28170684c18e7db8f12c1, type: 2}

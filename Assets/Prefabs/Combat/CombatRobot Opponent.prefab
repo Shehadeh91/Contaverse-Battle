@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &960078596825638992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9116439665471012091}
+  - component: {fileID: 4500701048118915511}
+  - component: {fileID: 3696862721297440376}
+  - component: {fileID: 2461881000046218822}
+  m_Layer: 0
+  m_Name: CombatInput AI Opponent
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &9116439665471012091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960078596825638992}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.1781739, y: 3.5066395, z: -1.5635151}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7064271369947115868}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4500701048118915511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960078596825638992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aad115aca74ce3c4891b3f6de0b4aae8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedExposedParameters: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.BehaviourTrees.BehaviourTree","nodes":[{"_position":{"x":776.0,"y":-198.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"0"},{"_condition":{"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckStance"},"_position":{"x":758.0,"y":31.0},"_comment":"Stance
+    0 is Defense, stance 1 is attack","$type":"NodeCanvas.BehaviourTrees.BinarySelector","$id":"1"},{"_position":{"x":58.0,"y":353.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"2"},{"_position":{"x":-246.3203,"y":513.9544},"_comment":"Switches
+    to Attack Stance if the Charge is above a certain value\n","$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"3"},{"_condition":{"comparisonMode":3,"value":4.0,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCompareCharge"},"_position":{"x":-438.0,"y":609.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"4"},{"_condition":{"probability":{"_value":0.5},"maxValue":{"_value":1.0},"$type":"NodeCanvas.Tasks.Conditions.Probability"},"_position":{"x":-276.0,"y":611.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"5"},{"_action":{"direction":1,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":0.1,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":-153.0,"y":612.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"6"},{"random":true,"_tag":"Dodging","_position":{"x":232.9548,"y":633.5466},"_comment":"Randomly
+    dodges left or right, if he can''t dodge left because he''s close to the edge
+    he''ll dodge right instead and vice versa","$type":"NodeCanvas.BehaviourTrees.Selector","$id":"7"},{"_position":{"x":-30.32031,"y":864.9544},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"8"},{"_condition":{"direction":2,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":-164.3203,"y":949.9544},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"9"},{"_action":{"direction":2,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":1.5,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":35.6797,"y":947.9544},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"10"},{"_position":{"x":279.6797,"y":844.9544},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"11"},{"_condition":{"direction":3,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":192.6797,"y":957.9544},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"12"},{"_action":{"direction":3,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":1.5,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":392.6797,"y":954.9544},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"13"},{"_position":{"x":626.0,"y":843.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"14"},{"_condition":{"direction":3,"checkVector":true,"moveDirection":{"y":-1.0},"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":537.0,"y":956.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"15"},{"_condition":{"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"minDistance":2.0,"$type":"Contaquest.Metaverse.AI.Combat.BTCheckOpponentDistance"},"_position":{"x":625.3101,"y":1035.543},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"16"},{"_action":{"direction":1,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":734.0,"y":951.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"17"},{"_action":{"direction":1,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":1.15,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":864.0,"y":947.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"18"},{"_action":{"direction":4,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":985.0,"y":944.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"19"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":1049.0,"y":833.0},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"20"},{"_position":{"x":991.0,"y":288.0},"$type":"NodeCanvas.BehaviourTrees.Selector","$id":"21"},{"_position":{"x":703.1953,"y":468.13},"_comment":"Switches
+    to Attack Stance if the Charge is above a certain value\n","$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"22"},{"_condition":{"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckOpponentAttacked"},"_position":{"x":509.5156,"y":572.1755},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"23"},{"_action":{"direction":4,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":0.1,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":724.5156,"y":570.1755},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"24"},{"_position":{"x":1074.0,"y":534.0},"_comment":"Switches
+    to Attack Stance if the Charge is above a certain value\n","$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"25"},{"_condition":{"comparisonMode":2,"value":2.0,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCompareCharge"},"_position":{"x":899.0,"y":615.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"26"},{"_action":{"direction":4,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":0.1,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":1196.32,"y":618.0456},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"27"},{"random":true,"_tag":"Dodging","_position":{"x":1622.0,"y":419.0},"_comment":"Randomly
+    dodges left or right, if he can''t dodge left because he''s close to the edge
+    he''ll dodge right instead and vice versa","$type":"NodeCanvas.BehaviourTrees.Selector","$id":"28"},{"_position":{"x":1467.725,"y":550.4078},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"29"},{"_condition":{"direction":2,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":1333.725,"y":635.4078},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"30"},{"_action":{"direction":2,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":3.5,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":1533.725,"y":633.4078},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"31"},{"_position":{"x":1777.725,"y":530.4078},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"32"},{"_condition":{"direction":3,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":1688.725,"y":643.4078},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"33"},{"_action":{"direction":3,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":3.5,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":1889.725,"y":639.4078},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"34"},{"_position":{"x":2122.0,"y":526.0},"$type":"NodeCanvas.BehaviourTrees.Sequencer","$id":"35"},{"_condition":{"direction":3,"checkVector":true,"moveDirection":{"y":-1.0},"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"$type":"Contaquest.Metaverse.AI.Combat.BTCheckTargetPosition"},"_position":{"x":2033.0,"y":639.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"36"},{"_condition":{"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"minDistance":2.0,"$type":"Contaquest.Metaverse.AI.Combat.BTCheckOpponentDistance"},"_position":{"x":2207.861,"y":640.7524},"$type":"NodeCanvas.BehaviourTrees.ConditionNode","$id":"37"},{"_action":{"direction":1,"combatController":{"_name":"myCombatController","_targetVariableID":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b"},"timeToWait":1.15,"$type":"Contaquest.Metaverse.AI.Combat.BTPerformInput"},"_position":{"x":2417.341,"y":631.7454},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"38"},{"_action":{"waitTime":{"_value":1.0},"$type":"NodeCanvas.Tasks.Actions.Wait"},"_position":{"x":2486.598,"y":535.5753},"$type":"NodeCanvas.BehaviourTrees.ActionNode","$id":"39"},{"_condition":{"probability":{"_value":0.5},"maxValue":{"_value":1.0},"$type":"NodeCanvas.Tasks.Conditions.Probability"},"_position":{"x":1069.0,"y":615.0},"$type":"NodeCanvas.BehaviourTrees.ConditionNode"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"17"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"21"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"21"},"_targetNode":{"$ref":"25"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"21"},"_targetNode":{"$ref":"28"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"23"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"22"},"_targetNode":{"$ref":"24"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"25"},"_targetNode":{"$ref":"26"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"25"},"_targetNode":{"$ref":"27"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"29"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"32"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"35"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"28"},"_targetNode":{"$ref":"39"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"30"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"29"},"_targetNode":{"$ref":"31"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"32"},"_targetNode":{"$ref":"33"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"32"},"_targetNode":{"$ref":"34"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"35"},"_targetNode":{"$ref":"36"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"35"},"_targetNode":{"$ref":"37"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"},{"_sourceNode":{"$ref":"35"},"_targetNode":{"$ref":"38"},"$type":"NodeCanvas.BehaviourTrees.BTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"repeat":true,"$type":"NodeCanvas.BehaviourTrees.BehaviourTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences: []
+  _boundGraphSource:
+    _version: 3.21
+    _category: 
+    _comments: 
+    _translation: {x: -212, y: -422}
+    _zoomFactor: 1
+  _firstActivation: 0
+  _enableAction: 0
+  _disableAction: 0
+  _lockBoundGraphPrefabOverrides: 1
+  _preInitializeSubGraphs: 0
+  _updateMode: 0
+  _graph: {fileID: 0}
+  _blackboard: {fileID: 3696862721297440376}
+--- !u!114 &3696862721297440376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960078596825638992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parentBlackboard: {fileID: 0}
+  _serializedBlackboard: '{"_variables":{"myCombatController":{"_value":1,"_name":"myCombatController","_id":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b","$type":"NodeCanvas.Framework.Variable`1[[Contaquest.Metaverse.Combat.CombatController,
+    Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
+  _objectReferences:
+  - {fileID: 0}
+  - {fileID: 1888312242551187162}
+  _serializedVariables:
+  - _json: '{"_value":1,"_name":"myCombatController","_id":"b6381bc7-18d9-4592-ac45-34d5e91f4d1b","$type":"NodeCanvas.Framework.Variable`1[[Contaquest.Metaverse.Combat.CombatController,
+      Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references:
+    - {fileID: 0}
+    - {fileID: 1888312242551187162}
+--- !u!114 &2461881000046218822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960078596825638992}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89242f32e48ef2f4babbd7ccc8a635b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onRepeat:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4500701048118915511}
+        m_TargetAssemblyTypeName: NodeCanvas.Framework.GraphOwner, ParadoxNotion
+        m_MethodName: UpdateBehaviour
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  delayTime: 0.1
+  repeatFromStart: 1
+--- !u!1 &7000590377559564734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6593225367573835319}
+  - component: {fileID: 5734624843733228532}
+  m_Layer: 0
+  m_Name: DataSource Entity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6593225367573835319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7000590377559564734}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4795022317485761938}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5734624843733228532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7000590377559564734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 93ad12e4e1da9f71fac6409afafd48b4, type: 2}
+  - {fileID: 11400000, guid: 0307347d8207d720e80bd912f9a44538, type: 2}
+  - {fileID: 11400000, guid: 65ecfd2531bba7a4ba515c38f2786e27, type: 2}
+  - {fileID: 11400000, guid: dbab1373798b91acc9d7f527133d5f87, type: 2}
+  - {fileID: 11400000, guid: 2569bb668e0689ca28bd05bdf66b0b90, type: 2}
+  - {fileID: 11400000, guid: bb947c771aa6724f080eac2a20613a2f, type: 2}
+--- !u!1001 &7591658494045441304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.485
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2090823774607153187, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2607975016102049058, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886265640360587635, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: charge.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: 52d654483e07f1a648d62bafc04df1ad,
+        type: 2}
+    - target: {fileID: 2909537999203988971, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: dirtiness
+      value: 
+      objectReference: {fileID: 11400000, guid: 0cf3fbd0f9bc2f2c98fb37fceb485d7b,
+        type: 2}
+    - target: {fileID: 3230801571847076628, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3464281527893416945, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4168845616017313643, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 5734624843733228532}
+    - target: {fileID: 4267530985415798766, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267530985415798766, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4267530985415798766, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5502423706483410588, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128900437738606420, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: dirtiness
+      value: 
+      objectReference: {fileID: 11400000, guid: 0cf3fbd0f9bc2f2c98fb37fceb485d7b,
+        type: 2}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: score.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e2e0c04a0a0ee74cae82639e4b80c5c,
+        type: 2}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: charge.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: 52d654483e07f1a648d62bafc04df1ad,
+        type: 2}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: score.useConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: charge.useConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: dirtiness.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: 0cf3fbd0f9bc2f2c98fb37fceb485d7b,
+        type: 2}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: dirtiness.useConstant
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 960078596825638992}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 960078596825638992}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 960078596825638992}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetActive
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onDeath.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onReset.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: onStarted.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8620746440404710725, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9064754519161336509, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: charge.variable
+      value: 
+      objectReference: {fileID: 11400000, guid: 52d654483e07f1a648d62bafc04df1ad,
+        type: 2}
+    - target: {fileID: 9177119847908289213, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+        type: 3}
+      propertyPath: m_Name
+      value: CombatRobot Opponent
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ee63cd9eee7ccf917a48d9c8d253d7c3, type: 3}
+--- !u!4 &7064271369947115868 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 816181017207323716, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7591658494045441304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1888312242551187162 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8317687641561574338, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7591658494045441304}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0b6b21f80db2672bd9b58f657b4aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &4795022317485761938 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3157492044581628042, guid: ee63cd9eee7ccf917a48d9c8d253d7c3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7591658494045441304}
+  m_PrefabAsset: {fileID: 0}

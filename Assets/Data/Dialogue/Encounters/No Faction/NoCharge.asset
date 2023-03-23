@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6bc653cbb11c27d9cd53f0c4d3ce86, type: 3}
+  m_Name: NoCharge
+  m_EditorClassIdentifier: 
+  startNodeId: 513166606
+  dialogueRole: {fileID: 11400000, guid: 80800b10825da89ebb3d78613534141a, type: 2}
+  dialogueNodes:
+  - nodeId: 513166606
+    dialogueText: Hey there! It seems that you're all out of energy... Fighting is
+      very exhaustive and needs a lot of energy, I'm afraid I can't let you go into
+      battle like this. You can go to the charger upstairs to get charged up!
+    dialogueEmotion: 0
+    dialogueOptions: []

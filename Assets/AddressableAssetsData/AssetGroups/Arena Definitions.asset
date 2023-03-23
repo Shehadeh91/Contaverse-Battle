@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Arena Definitions
+  m_EditorClassIdentifier: 
+  m_GroupName: Arena Definitions
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1f7ed0c52f6e8ddbcbaedc87903a1df9
+  m_SerializeEntries:
+  - m_GUID: 213057933a40e7a39ac4b8811d0faea5
+    m_Address: Mars Arena Definition
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Arena
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: f2441fc99fed8d85eb9cae40366ce230, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ba9cb3f52c0693b4fb68ed86558b3bd2, type: 2}
+    - {fileID: 11400000, guid: 984f2030792f3790392c0be7b03ca9b3, type: 2}

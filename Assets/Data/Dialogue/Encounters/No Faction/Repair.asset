@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c6bc653cbb11c27d9cd53f0c4d3ce86, type: 3}
+  m_Name: Repair
+  m_EditorClassIdentifier: 
+  startNodeId: 639219504
+  dialogueRole: {fileID: 11400000, guid: 80800b10825da89ebb3d78613534141a, type: 2}
+  dialogueNodes:
+  - nodeId: 639219504
+    dialogueText: Here you will be able to repair your robot. With all the fighting
+      you're doing, something's bound to break sooner or later.
+    dialogueEmotion: 0
+    dialogueOptions: []

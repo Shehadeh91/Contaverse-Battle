@@ -1,0 +1,3906 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.18011788, g: 0.22551839, b: 0.3066929, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &41090075
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41090079}
+  - component: {fileID: 41090078}
+  - component: {fileID: 41090077}
+  - component: {fileID: 41090076}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &41090076
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41090075}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &41090077
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41090075}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &41090078
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41090075}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &41090079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 41090075}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.814, y: 3.814, z: 3.814}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &44545001
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 44545006}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Xoco
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &44545002 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 44545001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &44545003 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 44545001}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44545002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &44545004 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 44545001}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &44545005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44545002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 44545003}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &44545006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44545004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 93ad12e4e1da9f71fac6409afafd48b4, type: 2}
+--- !u!1001 &72566840
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 72566845}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Roboy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &72566841 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 72566840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72566842 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 72566840}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72566841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &72566843 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 72566840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &72566844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72566841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 72566842}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &72566845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 72566843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 65ecfd2531bba7a4ba515c38f2786e27, type: 2}
+--- !u!1 &463693046
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 463693049}
+  - component: {fileID: 463693048}
+  - component: {fileID: 463693047}
+  - component: {fileID: 463693050}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &463693047
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463693046}
+  m_Enabled: 1
+--- !u!20 &463693048
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463693046}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &463693049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463693046}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 2, y: 1, z: 1.583}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &463693050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463693046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!1 &629115888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 629115890}
+  - component: {fileID: 629115889}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &629115889
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629115888}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &629115890
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 629115888}
+  m_LocalRotation: {x: 0.21130908, y: -0.7848856, z: 0.36599815, w: 0.45315382}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -120, z: 0}
+--- !u!1 &652169366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 652169368}
+  - component: {fileID: 652169367}
+  m_Layer: 0
+  m_Name: SaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &652169367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652169366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3843d3c226a397cc8cfb52c4c790f8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalVariables: []
+--- !u!4 &652169368
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652169366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1072486602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1072486607}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: D-Falt
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1072486603 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072486602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1072486604 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072486602}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072486603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1072486605 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1072486602}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1072486606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072486603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1072486604}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1072486607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072486605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: b0c8bbfe567e6ddf1ad1ce4073fa891b, type: 2}
+--- !u!1001 &1152993740
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1152993745}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Moonboy
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1152993741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1152993740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152993742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1152993740}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152993741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1152993743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1152993740}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1152993744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152993741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1152993742}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1152993745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152993743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 2569bb668e0689ca28bd05bdf66b0b90, type: 2}
+--- !u!1001 &1159526997
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1159527002}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Rabbot
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1159526998 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1159526997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1159526999 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1159526997}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159526998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1159527000 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1159526997}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1159527001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159526998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1159526999}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1159527002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159527000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: dbab1373798b91acc9d7f527133d5f87, type: 2}
+--- !u!1 &1261711623
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1261711627}
+  - component: {fileID: 1261711626}
+  - component: {fileID: 1261711625}
+  - component: {fileID: 1261711624}
+  m_Layer: 0
+  m_Name: Plane (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!64 &1261711624
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261711623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1261711625
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261711623}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1261711626
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261711623}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1261711627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1261711623}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.814, y: 3.814, z: 3.814}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1378725337
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1378725342}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Treble
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1378725338 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1378725337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1378725339 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1378725337}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378725338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1378725340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1378725337}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1378725341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378725338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1378725339}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1378725342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1378725340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 0307347d8207d720e80bd912f9a44538, type: 2}
+--- !u!1001 &1622008018
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1622008023}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Ronin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1622008019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1622008018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622008020 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1622008018}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622008019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1622008021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1622008018}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1622008022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622008019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1622008020}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1622008023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1622008021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: bb947c771aa6724f080eac2a20613a2f, type: 2}
+--- !u!1 &1849268480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1849268482}
+  - component: {fileID: 1849268481}
+  m_Layer: 0
+  m_Name: MetadataSerializer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1849268481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849268480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61a394ad6ffa4c66da4983d60e43d3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nftDatas:
+  - name: 47 Ronin - Arm
+    description: 'A universal robotic Arm with 3 degrees of freedom with an elegant
+      Samurai design.
+
+
+      An interdisciplinary team of scientists and designers
+      created 47 handcrafted robots. The infamous Ronin series... Inspired by ancient
+      Japan, but utilising the newest technological advancements. These robots are
+      not just dangerous, but elegant and beautiful with a long history and many
+      stories to tell.
+
+
+      This NFT is part of the Contaverse gaming universe,
+      learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/47-Ronin/Arm00.png
+  - name: 47 Ronin - Body
+    description: 'A larger and tougher chassis able to withstand additional damage
+      without compromising on beauty.
+
+
+      An interdisciplinary team of scientists
+      and designers created 47 handcrafted robots. The infamous Ronin series... Inspired
+      by ancient Japan, but utilising the newest technological advancements. These
+      robots are not just dangerous, but elegant and beautiful with a long history
+      and many stories to tell.
+
+
+      This NFT is part of the Contaverse gaming
+      universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/47-Ronin/Body00.png
+  - name: 47 Ronin - Head
+    description: "Sturdy and and elegant headwear protecting the Cerebral Processing
+      Unit. \n\nAn interdisciplinary team of scientists and designers created 47
+      handcrafted robots. The infamous Ronin series... Inspired by ancient Japan,
+      but utilising the newest technological advancements. These robots are not just
+      dangerous, but elegant and beautiful with a long history and many stories to
+      tell.\n\nThis NFT is part of the Contaverse gaming universe, learn more here:
+      https://contaquest.com"
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/47-Ronin/Head00.png
+  - name: 47 Ronin - Legs
+    description: 'Two mechanical legs using powerful servomotors allow for better
+      movement on different types of terrain.
+
+
+      An interdisciplinary team of
+      scientists and designers created 47 handcrafted robots. The infamous Ronin
+      series... Inspired by ancient Japan, but utilising the newest technological
+      advancements. These robots are not just dangerous, but elegant and beautiful
+      with a long history and many stories to tell.
+
+
+      This NFT is part of the
+      Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/47-Ronin/Legs00.png
+  - name: Drill - Arm 0
+    description: 'A universal robotic Arm with 3 degrees of freedom, capable of 
+      precisely manipulating objects.
+
+
+      Designed for construction work, Drill
+      lived a quiet life consisting only of hard labor with low wages and only served
+      to wear down his gears and parts. Dreaming of bigger things, Drill started
+      fighting in underground rings in his spare time. His durability and strength
+      gives him a competitive advantage over others.
+
+
+      This NFT is part of
+      the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Arm00.png
+  - name: Drill - Arm 1
+    description: 'A universal robotic Arm with 3 degrees of freedom with a drill
+      attachement.
+
+
+      Designed for construction work, Drill lived a quiet life
+      consisting only of hard labor with low wages and only served to wear down his
+      gears and parts. Dreaming of bigger things, Drill started fighting in underground
+      rings in his spare time. His durability and strength gives him a competitive
+      advantage over others.
+
+
+      This NFT is part of the Contaverse gaming universe,
+      learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Arm01.png
+  - name: Drill - Body
+    description: 'A bulky and durable body with an integrated powersource and smokestack.
+
+
+      Designed
+      for construction work, Drill lived a quiet life consisting only of hard labor
+      with low wages and only served to wear down his gears and parts. Dreaming of
+      bigger things, Drill started fighting in underground rings in his spare time.
+      His durability and strength gives him a competitive advantage over others.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Body00.png
+  - name: Drill - Head
+    description: 'The head of a construction robot.
+
+
+      Designed for construction
+      work, Drill lived a quiet life consisting only of hard labor with low wages
+      and only served to wear down his gears and parts. Dreaming of bigger things,
+      Drill started fighting in underground rings in his spare time. His durability
+      and strength gives him a competitive advantage over others.
+
+
+      This NFT
+      is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Head00.png
+  - name: Drill - Legs
+    description: 'Two legs specialized for rough ground and uneven space rock.
+
+
+      Designed
+      for construction work, Drill lived a quiet life consisting only of hard labor
+      with low wages and only served to wear down his gears and parts. Dreaming of
+      bigger things, Drill started fighting in underground rings in his spare time.
+      His durability and strength gives him a conmpetitive advantage over others.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Drill/Legs00.png
+  - name: Moonboy - Arm
+    description: 'The durable arm of a true pioneer
+
+
+      Moonboys have been designed
+      for the harsh environments of outer space. As a native citizen of the moon
+      he is accustomed to extreme heat and cold. These Contabots were frequently
+      working and living on large trading vessels, exploring the vast universe and
+      shipping valuable goods.
+
+
+      This NFT is part of the Contaverse gaming
+      universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Moonboy/Arm00.png
+  - name: Moonboy - Body
+    description: 'A bulky spacesuit with lots of additional equipment and tools attached.
+
+
+      Moonboys
+      have been designed for the harsh environments of outer space. As a native citizen
+      of the moon he is accustomed to extreme heat and cold. These Contabots were
+      frequently working and living on large trading vessels, exploring the vast
+      universe and shipping valuable goods.
+
+
+      This NFT is part of the Contaverse
+      gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Moonboy/Body00.png
+  - name: Moonboy - Head
+    description: 'A helmet with a visor to always keep cool under any circumstance.
+
+
+      Moonboys
+      have been designed for the harsh environments of outer space. As a native citizen
+      of the moon he is accustomed to extreme heat and cold. These Contabots were
+      frequently working and living on large trading vessels, exploring the vast
+      universe and shipping valuable goods.
+
+
+      This NFT is part of the Contaverse
+      gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Moonboy/Head00.png
+  - name: Moonboy - Legs
+    description: 'Insulated legs to protect from the cold of space.
+
+
+      Moonboys
+      have been designed for the harsh environments of outer space. As a native citizen
+      of the moon he is accustomed to extreme heat and cold. These Contabots were
+      frequently working and living on large trading vessels, exploring the vast
+      universe and shipping valuable goods.
+
+
+      This NFT is part of the Contaverse
+      gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Moonboy/Legs00.png
+  - name: Rabbot - Arm
+    description: 'Precisely milled arms capable of achieving incredible speeds at
+      a surprising accuracy!
+
+
+      Elegant streamlined curves set Rabbot apart
+      from Contabots specializing on physical labor. What Rabbot looses in protection
+      is gained in speed and precision. All those years dancing and performing finally
+      pay off
+
+
+      This NFT is part of the Contaverse gaming universe, learn more
+      here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Rabbot/Arm00.png
+  - name: Rabbot - Body
+    description: 'This body is a mechanical piece of art once in motion.
+
+
+      Elegant
+      streamlined curves set Rabbot apart from Contabots specializing on physical
+      labor. What Rabbot looses in protection is gained in speed and precision. All
+      those years dancing and performing finally pay off
+
+
+      This NFT is part
+      of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Rabbot/Body00.png
+  - name: Rabbot - Head
+    description: 'The iconic Rabbot head recognizable throughout the galaxy.
+
+
+      Elegant
+      streamlined curves set Rabbot apart from Contabots specializing on physical
+      labor. What Rabbot looses in protection is gained in speed and precision. All
+      those years dancing and performing finally pay off
+
+
+      This NFT is part
+      of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Rabbot/Head00.png
+  - name: Rabbot - Legs
+    description: 'Elegant smooth legs show what true grace looks like.
+
+
+      Elegant
+      streamlined curves set Rabbot apart from Contabots specializing on physical
+      labor. What Rabbot looses in protection is gained in speed and precision. All
+      those years dancing and performing finally pay off
+
+
+      This NFT is part
+      of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Rabbot/Legs00.png
+  - name: Roboy - Arm 0
+    description: "The Secondary Handling Unit is designated for the user\u2019s secondary
+      weapon. While it may not have the reinforced strength that its counterpart
+      possesses, the Secondary Handling Unit is identical in virtually every other
+      way."
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Arm00.png
+  - name: Roboy - Arm 1
+    description: "The Secondary Handling Unit is designated for the user\u2019s secondary
+      weapon. While it may not have the reinforced strength that its counterpart
+      possesses, the Secondary Handling Unit is identical in virtually every other
+      way."
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Arm01.png
+  - name: Roboy - Arm 2
+    description: "The Primary Handling Unit is designated for the user\u2019s primary
+      weapon. With additional reinforcements built-in, the Primary Handling Unit
+      is equipped to wield larger, heavier, and more powerful tools and weaponry."
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Arm02.png
+  - name: Roboy - Body
+    description: "It is the Central Chassis which housing the user's power source
+      as well as the majority of their vital systems, the Central Chassis makes up
+      the main body of the user. Larger and tougher chassis\u2019 can typically withstand
+      additional damage, while smaller and more elegant chassis\u2019 often provide
+      their own advantages."
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Body00.png
+  - name: Roboy - Head
+    description: It is the Cerebral Processing System which responsible for controlling
+      the user's parts individually, the Cerebral Processing System is also the user's
+      main means of intaking visual and audible information. Additionally, the Cerebral
+      Processing System is also responsible for relaying any reply via its built-in
+      speakers.
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Head00.png
+  - name: Roboy - Legs
+    description: "It is an Advanced Motion Assembly which responsible for the user\u2019s
+      overall movement, the Advanced Motion Assembly is essential. With various designs
+      allowing for better movement over different types of terrain, the user\u2019s
+      Advanced Motion Assembly should be chosen with great care."
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Roboy/Legs00.png
+  - name: Treble - Arm
+    description: "The arms of a true musician, spreading joy in the past and spreading
+      fear now.\n\nRealizing that his life as a celebrity was over, Treble went out
+      seeking revenge for his partner\u2019s killing. While he never found the bot
+      responsible, Treble embraced his new way of life, joining the fight on the
+      front lines in an attempt to forget his lost friend.\n\nThis NFT is part of
+      the Contaverse gaming universe, learn more here: https://contaquest.com"
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Treble/Arm00.png
+  - name: Treble - Body
+    description: "A well built and strong robot body.\n\nRealizing that his life
+      as a celebrity was over, Treble went out seeking revenge for his partner\u2019s
+      killing. While he never found the bot responsible, Treble embraced his new
+      way of life, joining the fight on the front lines in an attempt to forget his
+      lost friend.\n\nThis NFT is part of the Contaverse gaming universe, learn more
+      here: https://contaquest.com"
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Treble/Body00.png
+  - name: Treble - Head
+    description: "Thea head of a musician contabot. \n\nRealizing that his life as
+      a celebrity was over, Treble went out seeking revenge for his partner\u2019s
+      killing. While he never found the bot responsible, Treble embraced his new
+      way of life, joining the fight on the front lines in an attempt to forget his
+      lost friend.\n\nThis NFT is part of the Contaverse gaming universe, learn more
+      here: https://contaquest.com"
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Treble/Head00.png
+  - name: Treble - Legs
+    description: "Sturdy and reliable legs\n\nRealizing that his life as a celebrity
+      was over, Treble went out seeking revenge for his partner\u2019s killing. While
+      he never found the bot responsible, Treble embraced his new way of life, joining
+      the fight on the front lines in an attempt to forget his lost friend.\n\nThis
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com"
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Treble/Legs00.png
+  - name: Xoco - Arm
+    description: 'Lean arms, but don''t be deceived by optics, these are dangerous...
+
+
+      She
+      lives as a renowned warrior, feared by some but respected by all. She finally
+      achieved her dreams of greatness, albeit not in the way she had initially imagined.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Xoco/Arm00.png
+  - name: Xoco - Body
+    description: 'The Body of a warrior. thin and lightweight, without compromising
+      on plating and protection.
+
+
+      She lives as a renowned warrior, feared
+      by some but respected by all. She finally achieved her dreams of greatness,
+      albeit not in the way she had initially imagined.
+
+
+      This NFT is part
+      of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Xoco/Body00.png
+  - name: Xoco - Head
+    description: 'An ancient mask covers her head, Xoco will pull it over her face
+      in dangerous situations to protect and spread fear.
+
+
+      She lives as a
+      renowned warrior, feared by some but respected by all. She finally achieved
+      her dreams of greatness, albeit not in the way she had initially imagined.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Xoco/Head00.png
+  - name: Xoco - Legs
+    description: 'Strong Robot Legs
+
+
+      She lives as a renowned warrior, feared
+      by some but respected by all. She finally achieved her dreams of greatness,
+      albeit not in the way she had initially imagined.
+
+
+      This NFT is part
+      of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Xoco/Legs00.png
+  - name: Wheeler - Head
+    description: 'A round and streamlined head.
+
+
+      Finding the underground racing
+      scene, Wheeler was in love from the moment he witnessed his first race. Now,
+      as the wars ruined his life, Wheeler fights for whatever purpose he sees fit.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Wheeler/Head00.png
+  - name: Wheeler - Body
+    description: 'A lightweight and aerodynamic body.
+
+
+      Finding the underground
+      racing scene, Wheeler was in love from the moment he witnessed his first race.
+      Now, as the wars ruined his life, Wheeler fights for whatever purpose he sees
+      fit.
+
+
+      This NFT is part of the Contaverse gaming universe, learn more
+      here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Wheeler/Body00.png
+  - name: Wheeler - Arm
+    description: 'An arm equipped with deadly razor sharp blades.
+
+
+      Finding
+      the underground racing scene, Wheeler was in love from the moment he witnessed
+      his first race. Now, as the wars ruined his life, Wheeler fights for whatever
+      purpose he sees fit.
+
+
+      This NFT is part of the Contaverse gaming universe,
+      learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Wheeler/Arm00.png
+  - name: Wheeler - Legs
+    description: 'Wheels instead of legs give wheeler an unfair advantage over other
+      Contabots.
+
+
+      Finding the underground racing scene, Wheeler was in love
+      from the moment he witnessed his first race. Now, as the wars ruined his life,
+      Wheeler fights for whatever purpose he sees fit.
+
+
+      This NFT is part of
+      the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/Wheeler/Legs00.png
+  - name: D-Falt - Head
+    description: 'The default robot head received when signing up for Contaquest:Battle
+
+
+      Welcome
+      to the NFT movement! You''ve now become part of the awesome Contaverse community!
+      Push the limits of Blockchain and create the virtual economy of tomorrow.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/D-Falt/Head00.png
+  - name: D-Falt - Body
+    description: 'The default robot body received when signing up for Contaquest:Battle
+
+
+      Welcome
+      to the NFT movement! You''ve now become part of the awesome Contaverse community!
+      Push the limits of Blockchain and create the virtual economy of tomorrow.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/D-Falt/Body00.png
+  - name: D-Falt - Arm
+    description: 'The default robot arm received when signing up for Contaquest:Battle
+
+
+      Welcome
+      to the NFT movement! You''ve now become part of the awesome Contaverse community!
+      Push the limits of Blockchain and create the virtual economy of tomorrow.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/D-Falt/Arm00.png
+  - name: D-Falt - Legs
+    description: 'The default robot legs received when signing up for Contaquest:Battle
+
+
+      Welcome
+      to the NFT movement! You''ve now become part of the awesome Contaverse community!
+      Push the limits of Blockchain and create the virtual economy of tomorrow.
+
+
+      This
+      NFT is part of the Contaverse gaming universe, learn more here: https://contaquest.com'
+    image: https://www.contaverse.com/Contaverse-NFT/Images/Robot-Parts/D-Falt/Legs00.png
+  robotPartDatas:
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Epic
+    healthValue: 3
+    speedValue: 0
+    damageValue: 6
+    defenseValue: 0.5
+    weightValue: 0.6
+    agilityValue: 0
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 1D4D84
+    itemRarity: 3
+    equipSlot: 2
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 0.11372549, g: 0.3019608, b: 0.5176471, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3
+      - statName: DMG
+        Value: 6
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.6
+      - statName: SPD
+        Value: 0
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Epic
+    healthValue: 6
+    speedValue: 2.5
+    damageValue: 0
+    defenseValue: 4
+    weightValue: 1
+    agilityValue: 0
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 1D4D84
+    itemRarity: 3
+    equipSlot: 1
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 0.11372549, g: 0.3019608, b: 0.5176471, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 6
+      - statName: DMG
+        Value: 0
+      - statName: DEF
+        Value: 4
+      - statName: WGT
+        Value: 1
+      - statName: SPD
+        Value: 2.5
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Epic
+    healthValue: 3
+    speedValue: 0
+    damageValue: 0
+    defenseValue: 1
+    weightValue: 1
+    agilityValue: 7
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 1D4D84
+    itemRarity: 3
+    equipSlot: 0
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 0.11372549, g: 0.3019608, b: 0.5176471, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3
+      - statName: DMG
+        Value: 0
+      - statName: DEF
+        Value: 1
+      - statName: WGT
+        Value: 1
+      - statName: SPD
+        Value: 0
+      - statName: AGL
+        Value: 7
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Epic
+    healthValue: 4
+    speedValue: 4.5
+    damageValue: 0
+    defenseValue: 0.5
+    weightValue: 0.7
+    agilityValue: 0
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 1D4D84
+    itemRarity: 3
+    equipSlot: 4
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 0.11372549, g: 0.3019608, b: 0.5176471, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 4
+      - statName: DMG
+        Value: 0
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.7
+      - statName: SPD
+        Value: 4.5
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Common
+    healthValue: 0.9
+    speedValue: 0.6
+    damageValue: 0.9
+    defenseValue: 1.2
+    weightValue: 0.75
+    agilityValue: 0
+    primaryColorValue: E4942D
+    secondaryColorValue: EB8151
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 2
+    primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+    secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 1.2
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 0.6
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Common
+    healthValue: 0.9
+    speedValue: 0.6
+    damageValue: 0.9
+    defenseValue: 1.2
+    weightValue: 0.75
+    agilityValue: 0.6
+    primaryColorValue: E4942D
+    secondaryColorValue: EB8151
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 2
+    primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+    secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 1.2
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 0.6
+      - statName: AGL
+        Value: 0.6
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Common
+    healthValue: 1.62
+    speedValue: 1.08
+    damageValue: 1.62
+    defenseValue: 2.16
+    weightValue: 1.35
+    agilityValue: 1.08
+    primaryColorValue: E4942D
+    secondaryColorValue: EB8151
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 1
+    primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+    secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.62
+      - statName: DMG
+        Value: 1.62
+      - statName: DEF
+        Value: 2.16
+      - statName: WGT
+        Value: 1.35
+      - statName: SPD
+        Value: 1.08
+      - statName: AGL
+        Value: 1.08
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Common
+    healthValue: 1.5
+    speedValue: 1
+    damageValue: 1.5
+    defenseValue: 2
+    weightValue: 1.25
+    agilityValue: 1
+    primaryColorValue: E4942D
+    secondaryColorValue: EB8151
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 0
+    primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+    secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.5
+      - statName: DMG
+        Value: 1.5
+      - statName: DEF
+        Value: 2
+      - statName: WGT
+        Value: 1.25
+      - statName: SPD
+        Value: 1
+      - statName: AGL
+        Value: 1
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Common
+    healthValue: 1.08
+    speedValue: 0.72
+    damageValue: 1.08
+    defenseValue: 1.44
+    weightValue: 0.9
+    agilityValue: 0.72
+    primaryColorValue: E4942D
+    secondaryColorValue: EB8151
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 4
+    primaryColor: {r: 0.89411765, g: 0.5803922, b: 0.1764706, a: 1}
+    secondaryColor: {r: 0.92156863, g: 0.5058824, b: 0.31764707, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.08
+      - statName: DMG
+        Value: 1.08
+      - statName: DEF
+        Value: 1.44
+      - statName: WGT
+        Value: 0.9
+      - statName: SPD
+        Value: 0.72
+      - statName: AGL
+        Value: 0.72
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Epic
+    healthValue: 2.25
+    speedValue: 0.45
+    damageValue: 0.9
+    defenseValue: 1.05
+    weightValue: 1.35
+    agilityValue: 0.45
+    primaryColorValue: D7CCCD
+    secondaryColorValue: CC6159
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 2
+    primaryColor: {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+    secondaryColor: {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 2.25
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 1.05
+      - statName: WGT
+        Value: 1.35
+      - statName: SPD
+        Value: 0.45
+      - statName: AGL
+        Value: 0.45
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Epic
+    healthValue: 4.05
+    speedValue: 0.81
+    damageValue: 1.62
+    defenseValue: 1.89
+    weightValue: 2.43
+    agilityValue: 0.81
+    primaryColorValue: D7CCCD
+    secondaryColorValue: CC6159
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 1
+    primaryColor: {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+    secondaryColor: {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 4.05
+      - statName: DMG
+        Value: 1.62
+      - statName: DEF
+        Value: 1.89
+      - statName: WGT
+        Value: 2.43
+      - statName: SPD
+        Value: 0.81
+      - statName: AGL
+        Value: 0.81
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Epic
+    healthValue: 3.75
+    speedValue: 0.75
+    damageValue: 1.5
+    defenseValue: 1.75
+    weightValue: 2.25
+    agilityValue: 0.75
+    primaryColorValue: D7CCCD
+    secondaryColorValue: CC6159
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 0
+    primaryColor: {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+    secondaryColor: {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3.75
+      - statName: DMG
+        Value: 1.5
+      - statName: DEF
+        Value: 1.75
+      - statName: WGT
+        Value: 2.25
+      - statName: SPD
+        Value: 0.75
+      - statName: AGL
+        Value: 0.75
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Epic
+    healthValue: 2.7
+    speedValue: 0.54
+    damageValue: 1.08
+    defenseValue: 1.26
+    weightValue: 1.62
+    agilityValue: 0.54
+    primaryColorValue: D7CCCD
+    secondaryColorValue: CC6159
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 4
+    primaryColor: {r: 0.84313726, g: 0.8, b: 0.8039216, a: 1}
+    secondaryColor: {r: 0.8, g: 0.38039216, b: 0.34901962, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 2.7
+      - statName: DMG
+        Value: 1.08
+      - statName: DEF
+        Value: 1.26
+      - statName: WGT
+        Value: 1.62
+      - statName: SPD
+        Value: 0.54
+      - statName: AGL
+        Value: 0.54
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Rare
+    healthValue: 1.8
+    speedValue: 0.6
+    damageValue: 0.9
+    defenseValue: 0.9
+    weightValue: 0.75
+    agilityValue: 0.45
+    primaryColorValue: 666BC0
+    secondaryColorValue: C36CE4
+    tertiaryColorValue: 
+    itemRarity: 2
+    equipSlot: 2
+    primaryColor: {r: 0.4, g: 0.41960785, b: 0.7529412, a: 1}
+    secondaryColor: {r: 0.7647059, g: 0.42352942, b: 0.89411765, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.8
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 0.9
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 0.6
+      - statName: AGL
+        Value: 0.45
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Rare
+    healthValue: 3.24
+    speedValue: 1.08
+    damageValue: 1.62
+    defenseValue: 1.62
+    weightValue: 1.35
+    agilityValue: 0.81
+    primaryColorValue: 666BC0
+    secondaryColorValue: C36CE4
+    tertiaryColorValue: 
+    itemRarity: 2
+    equipSlot: 1
+    primaryColor: {r: 0.4, g: 0.41960785, b: 0.7529412, a: 1}
+    secondaryColor: {r: 0.7647059, g: 0.42352942, b: 0.89411765, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3.24
+      - statName: DMG
+        Value: 1.62
+      - statName: DEF
+        Value: 1.62
+      - statName: WGT
+        Value: 1.35
+      - statName: SPD
+        Value: 1.08
+      - statName: AGL
+        Value: 0.81
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Rare
+    healthValue: 3
+    speedValue: 1
+    damageValue: 1.5
+    defenseValue: 1.5
+    weightValue: 1.25
+    agilityValue: 0.75
+    primaryColorValue: 666BC0
+    secondaryColorValue: C36CE4
+    tertiaryColorValue: 
+    itemRarity: 2
+    equipSlot: 0
+    primaryColor: {r: 0.4, g: 0.41960785, b: 0.7529412, a: 1}
+    secondaryColor: {r: 0.7647059, g: 0.42352942, b: 0.89411765, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3
+      - statName: DMG
+        Value: 1.5
+      - statName: DEF
+        Value: 1.5
+      - statName: WGT
+        Value: 1.25
+      - statName: SPD
+        Value: 1
+      - statName: AGL
+        Value: 0.75
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Rare
+    healthValue: 2.16
+    speedValue: 0.72
+    damageValue: 1.08
+    defenseValue: 1.08
+    weightValue: 0.9
+    agilityValue: 0.54
+    primaryColorValue: 666BC0
+    secondaryColorValue: C36CE4
+    tertiaryColorValue: 
+    itemRarity: 2
+    equipSlot: 4
+    primaryColor: {r: 0.4, g: 0.41960785, b: 0.7529412, a: 1}
+    secondaryColor: {r: 0.7647059, g: 0.42352942, b: 0.89411765, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 2.16
+      - statName: DMG
+        Value: 1.08
+      - statName: DEF
+        Value: 1.08
+      - statName: WGT
+        Value: 0.9
+      - statName: SPD
+        Value: 0.72
+      - statName: AGL
+        Value: 0.54
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Legendary
+    healthValue: 0.9
+    speedValue: 1.2
+    damageValue: 0.75
+    defenseValue: 1.35
+    weightValue: 0.75
+    agilityValue: 0
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 2
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.75
+      - statName: DEF
+        Value: 1.35
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 1.2
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Legendary
+    healthValue: 0.9
+    speedValue: 1.2
+    damageValue: 0.75
+    defenseValue: 1.35
+    weightValue: 0.75
+    agilityValue: 0
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 2
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.75
+      - statName: DEF
+        Value: 1.35
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 1.2
+      - statName: AGL
+        Value: 0
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Legendary
+    healthValue: 0.9
+    speedValue: 1.2
+    damageValue: 0.75
+    defenseValue: 1.35
+    weightValue: 0.75
+    agilityValue: 0.75
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 2
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.75
+      - statName: DEF
+        Value: 1.35
+      - statName: WGT
+        Value: 0.75
+      - statName: SPD
+        Value: 1.2
+      - statName: AGL
+        Value: 0.75
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Legendary
+    healthValue: 1.62
+    speedValue: 2.16
+    damageValue: 1.35
+    defenseValue: 2.43
+    weightValue: 1.35
+    agilityValue: 1.35
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 1
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.62
+      - statName: DMG
+        Value: 1.35
+      - statName: DEF
+        Value: 2.43
+      - statName: WGT
+        Value: 1.35
+      - statName: SPD
+        Value: 2.16
+      - statName: AGL
+        Value: 1.35
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Legendary
+    healthValue: 1.5
+    speedValue: 2
+    damageValue: 1.25
+    defenseValue: 2.25
+    weightValue: 1.25
+    agilityValue: 1.25
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 0
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.5
+      - statName: DMG
+        Value: 1.25
+      - statName: DEF
+        Value: 2.25
+      - statName: WGT
+        Value: 1.25
+      - statName: SPD
+        Value: 2
+      - statName: AGL
+        Value: 1.25
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Legendary
+    healthValue: 1.08
+    speedValue: 1.44
+    damageValue: 0.9
+    defenseValue: 1.62
+    weightValue: 0.9
+    agilityValue: 0.9
+    primaryColorValue: E46D2E
+    secondaryColorValue: F79328
+    tertiaryColorValue: 
+    itemRarity: 4
+    equipSlot: 4
+    primaryColor: {r: 0.89411765, g: 0.42745098, b: 0.18039216, a: 1}
+    secondaryColor: {r: 0.96862745, g: 0.5764706, b: 0.15686275, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.08
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 1.62
+      - statName: WGT
+        Value: 0.9
+      - statName: SPD
+        Value: 1.44
+      - statName: AGL
+        Value: 0.9
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Common
+    healthValue: 0.9
+    speedValue: 0.6
+    damageValue: 0.75
+    defenseValue: 1.2
+    weightValue: 1.05
+    agilityValue: 0.6
+    primaryColorValue: EB753A
+    secondaryColorValue: F8AF64
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 2
+    primaryColor: {r: 0.92156863, g: 0.45882353, b: 0.22745098, a: 1}
+    secondaryColor: {r: 0.972549, g: 0.6862745, b: 0.39215687, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.9
+      - statName: DMG
+        Value: 0.75
+      - statName: DEF
+        Value: 1.2
+      - statName: WGT
+        Value: 1.05
+      - statName: SPD
+        Value: 0.6
+      - statName: AGL
+        Value: 0.6
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Common
+    healthValue: 1.62
+    speedValue: 1.08
+    damageValue: 1.35
+    defenseValue: 2.16
+    weightValue: 1.89
+    agilityValue: 1.08
+    primaryColorValue: EB753A
+    secondaryColorValue: F8AF64
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 1
+    primaryColor: {r: 0.92156863, g: 0.45882353, b: 0.22745098, a: 1}
+    secondaryColor: {r: 0.972549, g: 0.6862745, b: 0.39215687, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.62
+      - statName: DMG
+        Value: 1.35
+      - statName: DEF
+        Value: 2.16
+      - statName: WGT
+        Value: 1.89
+      - statName: SPD
+        Value: 1.08
+      - statName: AGL
+        Value: 1.08
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Common
+    healthValue: 1.5
+    speedValue: 1
+    damageValue: 1.25
+    defenseValue: 2
+    weightValue: 1.75
+    agilityValue: 1
+    primaryColorValue: EB753A
+    secondaryColorValue: F8AF64
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 0
+    primaryColor: {r: 0.92156863, g: 0.45882353, b: 0.22745098, a: 1}
+    secondaryColor: {r: 0.972549, g: 0.6862745, b: 0.39215687, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.5
+      - statName: DMG
+        Value: 1.25
+      - statName: DEF
+        Value: 2
+      - statName: WGT
+        Value: 1.75
+      - statName: SPD
+        Value: 1
+      - statName: AGL
+        Value: 1
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Common
+    healthValue: 1.08
+    speedValue: 0.72
+    damageValue: 0.9
+    defenseValue: 1.44
+    weightValue: 1.26
+    agilityValue: 0.72
+    primaryColorValue: EB753A
+    secondaryColorValue: F8AF64
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 4
+    primaryColor: {r: 0.92156863, g: 0.45882353, b: 0.22745098, a: 1}
+    secondaryColor: {r: 0.972549, g: 0.6862745, b: 0.39215687, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.08
+      - statName: DMG
+        Value: 0.9
+      - statName: DEF
+        Value: 1.44
+      - statName: WGT
+        Value: 1.26
+      - statName: SPD
+        Value: 0.72
+      - statName: AGL
+        Value: 0.72
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Epic
+    healthValue: 2.03
+    speedValue: 0.6
+    damageValue: 0.5
+    defenseValue: 0.9
+    weightValue: 1.2
+    agilityValue: 0.6
+    primaryColorValue: D95B42
+    secondaryColorValue: FAB36C
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 2
+    primaryColor: {r: 0.8509804, g: 0.35686275, b: 0.25882354, a: 1}
+    secondaryColor: {r: 0.98039216, g: 0.7019608, b: 0.42352942, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 2.03
+      - statName: DMG
+        Value: 0.5
+      - statName: DEF
+        Value: 0.9
+      - statName: WGT
+        Value: 1.2
+      - statName: SPD
+        Value: 0.6
+      - statName: AGL
+        Value: 0.6
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Epic
+    healthValue: 3.65
+    speedValue: 1.08
+    damageValue: 1.62
+    defenseValue: 1.62
+    weightValue: 2.16
+    agilityValue: 1.08
+    primaryColorValue: D95B42
+    secondaryColorValue: FAB36C
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 1
+    primaryColor: {r: 0.8509804, g: 0.35686275, b: 0.25882354, a: 1}
+    secondaryColor: {r: 0.98039216, g: 0.7019608, b: 0.42352942, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3.65
+      - statName: DMG
+        Value: 1.62
+      - statName: DEF
+        Value: 1.62
+      - statName: WGT
+        Value: 2.16
+      - statName: SPD
+        Value: 1.08
+      - statName: AGL
+        Value: 1.08
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Epic
+    healthValue: 3.38
+    speedValue: 1
+    damageValue: 1.5
+    defenseValue: 1.5
+    weightValue: 2
+    agilityValue: 1
+    primaryColorValue: D95B42
+    secondaryColorValue: FAB36C
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 0
+    primaryColor: {r: 0.8509804, g: 0.35686275, b: 0.25882354, a: 1}
+    secondaryColor: {r: 0.98039216, g: 0.7019608, b: 0.42352942, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 3.38
+      - statName: DMG
+        Value: 1.5
+      - statName: DEF
+        Value: 1.5
+      - statName: WGT
+        Value: 2
+      - statName: SPD
+        Value: 1
+      - statName: AGL
+        Value: 1
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Epic
+    healthValue: 2.43
+    speedValue: 0.72
+    damageValue: 1.08
+    defenseValue: 1.08
+    weightValue: 1.44
+    agilityValue: 0.72
+    primaryColorValue: D95B42
+    secondaryColorValue: FAB36C
+    tertiaryColorValue: 
+    itemRarity: 3
+    equipSlot: 4
+    primaryColor: {r: 0.8509804, g: 0.35686275, b: 0.25882354, a: 1}
+    secondaryColor: {r: 0.98039216, g: 0.7019608, b: 0.42352942, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 2.43
+      - statName: DMG
+        Value: 1.08
+      - statName: DEF
+        Value: 1.08
+      - statName: WGT
+        Value: 1.44
+      - statName: SPD
+        Value: 0.72
+      - statName: AGL
+        Value: 0.72
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Common
+    healthValue: 1.09
+    speedValue: 0.32
+    damageValue: 0.49
+    defenseValue: 0.49
+    weightValue: 0.65
+    agilityValue: 0.32
+    primaryColorValue: 37363D
+    secondaryColorValue: EE5600
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 0
+    primaryColor: {r: 0.21568628, g: 0.21176471, b: 0.23921569, a: 1}
+    secondaryColor: {r: 0.93333334, g: 0.3372549, b: 0, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.09
+      - statName: DMG
+        Value: 0.49
+      - statName: DEF
+        Value: 0.49
+      - statName: WGT
+        Value: 0.65
+      - statName: SPD
+        Value: 0.32
+      - statName: AGL
+        Value: 0.32
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Common
+    healthValue: 1.97
+    speedValue: 0.58
+    damageValue: 0.87
+    defenseValue: 0.87
+    weightValue: 1.17
+    agilityValue: 0.58
+    primaryColorValue: 37363D
+    secondaryColorValue: EE5600
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 1
+    primaryColor: {r: 0.21568628, g: 0.21176471, b: 0.23921569, a: 1}
+    secondaryColor: {r: 0.93333334, g: 0.3372549, b: 0, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.97
+      - statName: DMG
+        Value: 0.87
+      - statName: DEF
+        Value: 0.87
+      - statName: WGT
+        Value: 1.17
+      - statName: SPD
+        Value: 0.58
+      - statName: AGL
+        Value: 0.58
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Common
+    healthValue: 1.82
+    speedValue: 0.54
+    damageValue: 0.81
+    defenseValue: 0.81
+    weightValue: 1.08
+    agilityValue: 0.54
+    primaryColorValue: 37363D
+    secondaryColorValue: EE5600
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 2
+    primaryColor: {r: 0.21568628, g: 0.21176471, b: 0.23921569, a: 1}
+    secondaryColor: {r: 0.93333334, g: 0.3372549, b: 0, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.82
+      - statName: DMG
+        Value: 0.81
+      - statName: DEF
+        Value: 0.81
+      - statName: WGT
+        Value: 1.08
+      - statName: SPD
+        Value: 0.54
+      - statName: AGL
+        Value: 0.54
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Common
+    healthValue: 1.31
+    speedValue: 0.39
+    damageValue: 0.58
+    defenseValue: 0.58
+    weightValue: 0.78
+    agilityValue: 0.39
+    primaryColorValue: 37363D
+    secondaryColorValue: EE5600
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 4
+    primaryColor: {r: 0.21568628, g: 0.21176471, b: 0.23921569, a: 1}
+    secondaryColor: {r: 0.93333334, g: 0.3372549, b: 0, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 1.31
+      - statName: DMG
+        Value: 0.58
+      - statName: DEF
+        Value: 0.58
+      - statName: WGT
+        Value: 0.78
+      - statName: SPD
+        Value: 0.39
+      - statName: AGL
+        Value: 0.39
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Head
+    rarityValue: Common
+    healthValue: 0.5
+    speedValue: 0.5
+    damageValue: 0.5
+    defenseValue: 0.5
+    weightValue: 0.5
+    agilityValue: 0.5
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 0
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.5
+      - statName: DMG
+        Value: 0.5
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.5
+      - statName: SPD
+        Value: 0.5
+      - statName: AGL
+        Value: 0.5
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Body
+    rarityValue: Common
+    healthValue: 0.5
+    speedValue: 0.5
+    damageValue: 0.5
+    defenseValue: 0.5
+    weightValue: 0.5
+    agilityValue: 0.5
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 1
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.5
+      - statName: DMG
+        Value: 0.5
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.5
+      - statName: SPD
+        Value: 0.5
+      - statName: AGL
+        Value: 0.5
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Arm
+    rarityValue: Common
+    healthValue: 0.5
+    speedValue: 0.5
+    damageValue: 0.5
+    defenseValue: 0.5
+    weightValue: 0.5
+    agilityValue: 0.5
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 2
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.5
+      - statName: DMG
+        Value: 0.5
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.5
+      - statName: SPD
+        Value: 0.5
+      - statName: AGL
+        Value: 0.5
+    behaviours: []
+    upgrades: []
+  - itemType: Robot Part
+    nftData:
+      name: 
+      description: 
+      image: 
+    equipSlotValue: Legs
+    rarityValue: Common
+    healthValue: 0.5
+    speedValue: 0.5
+    damageValue: 0.5
+    defenseValue: 0.5
+    weightValue: 0.5
+    agilityValue: 0.5
+    primaryColorValue: 1E9FF8
+    secondaryColorValue: F32C43
+    tertiaryColorValue: 
+    itemRarity: 1
+    equipSlot: 4
+    primaryColor: {r: 0.11764706, g: 0.62352943, b: 0.972549, a: 1}
+    secondaryColor: {r: 0.9529412, g: 0.17254902, b: 0.2627451, a: 1}
+    tertiaryColor: {r: 1, g: 1, b: 1, a: 1}
+    stats:
+      stats:
+      - statName: HP
+        Value: 0.5
+      - statName: DMG
+        Value: 0.5
+      - statName: DEF
+        Value: 0.5
+      - statName: WGT
+        Value: 0.5
+      - statName: SPD
+        Value: 0.5
+      - statName: AGL
+        Value: 0.5
+    behaviours: []
+    upgrades: []
+  robotPartDataJsonFiles:
+  - {fileID: 4900000, guid: 0eda2ab04ecabf5a78592d44009de64b, type: 3}
+  - {fileID: 4900000, guid: 0cfadbaaffaa952de9561f209da1590c, type: 3}
+  - {fileID: 4900000, guid: 4ae61178be2200890af7251110ce9797, type: 3}
+  - {fileID: 4900000, guid: 4c9c11577faaf9cebb366be68039918d, type: 3}
+  - {fileID: 4900000, guid: 6530d85e525851a4f9d0be5778b120be, type: 3}
+  - {fileID: 4900000, guid: 2022816694fb2c08bbfda6da2773f465, type: 3}
+  - {fileID: 4900000, guid: b8700e1f906dd446cbc472f9dcc0cf0b, type: 3}
+  - {fileID: 4900000, guid: 60991d14ba2f62b4f9713ceeee4f90eb, type: 3}
+  - {fileID: 4900000, guid: 317016c65dbadea9a932d8c679480e69, type: 3}
+  - {fileID: 4900000, guid: 7c05dd2fa4ef995009e9f000a7669529, type: 3}
+  - {fileID: 4900000, guid: 910e5013dc7c17429847cac7867a32a9, type: 3}
+  - {fileID: 4900000, guid: d19983488f96dde269c5ec130a5a156b, type: 3}
+  - {fileID: 4900000, guid: 60231e6fb8716b33783dbd079140c9b4, type: 3}
+  - {fileID: 4900000, guid: e6e7214b82d2b9737b386799cc0e1623, type: 3}
+  - {fileID: 4900000, guid: 0e907a511149bbbfaafd9f6d9f223abe, type: 3}
+  - {fileID: 4900000, guid: 46ed666c5a1ca51eba05049f051160b0, type: 3}
+  - {fileID: 4900000, guid: aab736bfa8ad30cc9a80b373f431c8c0, type: 3}
+  - {fileID: 4900000, guid: f5782dce5c7c7de36b8f041da3f9a3db, type: 3}
+  - {fileID: 4900000, guid: dbf1aa5c22103c544a0c49393ee5e3af, type: 3}
+  - {fileID: 4900000, guid: ee1ecff62273b623ba24dc7073dcc0f0, type: 3}
+  - {fileID: 4900000, guid: 9aea777824b4ecceaa29d7187c29178e, type: 3}
+  - {fileID: 4900000, guid: e974a1a89339bb040ac7e3c3ba7ad056, type: 3}
+  - {fileID: 4900000, guid: 32a337d3fe44dc1aa85fbde65c733e66, type: 3}
+  - {fileID: 4900000, guid: 81bb5e2c79574c90080a408ba95f627c, type: 3}
+  - {fileID: 4900000, guid: 61299ccd7523d2d89a1271894481a93f, type: 3}
+  - {fileID: 4900000, guid: 30d735364b4480785952136af615a458, type: 3}
+  - {fileID: 4900000, guid: 0af990d715951e8b59cd1d799a627c04, type: 3}
+  - {fileID: 4900000, guid: e8542017e21bb93ccbce3baddab6833a, type: 3}
+  - {fileID: 4900000, guid: 1746570c09fa97edfaa6eeb9cbf1bebf, type: 3}
+  - {fileID: 4900000, guid: c5ab6d099f280c38cbd359b6dc9d028c, type: 3}
+  - {fileID: 4900000, guid: fce910decde115a67b4b9e8a6def9c66, type: 3}
+  - {fileID: 4900000, guid: 7e7dca3b8791499aeb89a4980f7c753b, type: 3}
+  - {fileID: 4900000, guid: 29d219661e7a7cf6f8f4792ba6672ffb, type: 3}
+  - {fileID: 4900000, guid: bb120e059ec7a420890a9aa0106c4c62, type: 3}
+  - {fileID: 4900000, guid: b96d87779a14486218c8a6163eabe916, type: 3}
+  - {fileID: 4900000, guid: 623efd78ffaaa9567b6e33089678529a, type: 3}
+  - {fileID: 4900000, guid: 8b78b91d62206e163b45dfe7aca866bf, type: 3}
+  - {fileID: 4900000, guid: 9547dc6f49fab67a68f27a33263c85cf, type: 3}
+  - {fileID: 4900000, guid: c0f0aa162ab174b9398c291905a4beba, type: 3}
+  tokenData:
+    itemType: 
+    nftData:
+      name: 
+      description: 
+      image: 
+    itemTierString: 
+  csvFile: /Data/Metadata/Metadata.csv
+--- !u!4 &1849268482
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1849268480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.0689068, y: 10.986945, z: 3.5346992}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1912246106
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1718822578, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 266111691856879946, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: robotDataSource
+      value: 
+      objectReference: {fileID: 1912246111}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_Name
+      value: Drill
+      objectReference: {fileID: 0}
+    - target: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8098521191001499119, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: ccf09e335c1eed7a3823914c1a75703c, type: 3}
+--- !u!1 &1912246107 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6705112366662408993, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1912246106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912246108 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1277463622623545003, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1912246106}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912246107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fff84099b0eaf2674b5414a07fd56b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1912246109 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1718822576, guid: ccf09e335c1eed7a3823914c1a75703c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1912246106}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1912246110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912246107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d26cd6e224c0a90c18019319ebc11f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnAwake:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1912246108}
+        m_TargetAssemblyTypeName: Contaquest.Metaverse.Robot.RobotController, Assembly-CSharp
+        m_MethodName: CreateRobot
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnEnabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDisabled:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDestroyed:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1912246111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1912246109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07cdda6f54b22dc4eb940b7976ad6604, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotPartCollections:
+  - {fileID: 11400000, guid: 188c8be06a475e4e7bca2d61e13cc42f, type: 2}

@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 2d38d8f41a737ae068b471722864706e
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 1
+  m_BundleLocalCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 0
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 0
+  m_NonRecursiveBuilding: 0
+  m_maxConcurrentWebRequests: 500
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_ShaderBundleNaming: 0
+  m_ShaderBundleCustomNaming: 
+  m_MonoScriptBundleNaming: 0
+  m_MonoScriptBundleCustomNaming: 
+  m_RemoteCatalogBuildPath:
+    m_Id: 588dc8cf442f3566ca452e98703bc0b2
+  m_RemoteCatalogLoadPath:
+    m_Id: 31e0ed1bebb06e84ab17a33d1d470ed9
+  m_ContentStateBuildPath: 
+  m_overridePlayerVersion: 
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 9905ef13539502645bde30a7a82c2aa4, type: 2}
+  - {fileID: 11400000, guid: d4419b8ce451b3def8ff634f2d8323a4, type: 2}
+  - {fileID: 11400000, guid: efdd133c256b70583a6e187218114160, type: 2}
+  - {fileID: 11400000, guid: dda15b096dde3d80fa9976b6ed28f65b, type: 2}
+  - {fileID: 11400000, guid: 76e1a0601a7f24cf186fc689f9c7a405, type: 2}
+  - {fileID: 11400000, guid: 46151235924924063ae21023dc3d576d, type: 2}
+  - {fileID: 11400000, guid: 9c3f206236bc0a1de9e51a24f6d3d6f5, type: 2}
+  - {fileID: 11400000, guid: c57f188f6cf52350cac56239d32a4fec, type: 2}
+  - {fileID: 11400000, guid: 19eee5204989fa7beb38e81c74e47821, type: 2}
+  m_BuildSettings:
+    m_CompileScriptsInVirtualMode: 0
+    m_CleanupStreamingAssetsAfterBuilds: 1
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: 1a1fa49b01e45cf48a66e3697bc74485
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 7e94d66b4f42db3dd8717d6b4246d0dc
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 31e23f11d52335b25832635230f4cb38
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 1da67bb002074c9b694487d2d22dddc4
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 588dc8cf442f3566ca452e98703bc0b2
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 31e0ed1bebb06e84ab17a33d1d470ed9
+        m_Value: http://localhost/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: 5a5a562a17a2444c3b387c4267c1b8de
+      m_ProfileName: Remote
+      m_Values:
+      - m_Id: 7e94d66b4f42db3dd8717d6b4246d0dc
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 31e23f11d52335b25832635230f4cb38
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 1da67bb002074c9b694487d2d22dddc4
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 588dc8cf442f3566ca452e98703bc0b2
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 31e0ed1bebb06e84ab17a33d1d470ed9
+        m_Value: https://www.contaverse.com/Addressables/Battle/[BuildTarget]
+    - m_InheritedParent: 
+      m_Id: c75612fdb015d8c3488b48facc0f6837
+      m_ProfileName: Development
+      m_Values:
+      - m_Id: 7e94d66b4f42db3dd8717d6b4246d0dc
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: 31e23f11d52335b25832635230f4cb38
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 1da67bb002074c9b694487d2d22dddc4
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+      - m_Id: 588dc8cf442f3566ca452e98703bc0b2
+        m_Value: ServerData/[BuildTarget]
+      - m_Id: 31e0ed1bebb06e84ab17a33d1d470ed9
+        m_Value: https://www.contaverse.com/Addressables/Battle-Dev/[BuildTarget]
+    m_ProfileEntryNames:
+    - m_Id: 7e94d66b4f42db3dd8717d6b4246d0dc
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: 31e23f11d52335b25832635230f4cb38
+      m_Name: LocalBuildPath
+      m_InlineUsage: 0
+    - m_Id: 1da67bb002074c9b694487d2d22dddc4
+      m_Name: LocalLoadPath
+      m_InlineUsage: 0
+    - m_Id: 588dc8cf442f3566ca452e98703bc0b2
+      m_Name: RemoteBuildPath
+      m_InlineUsage: 0
+    - m_Id: 31e0ed1bebb06e84ab17a33d1d470ed9
+      m_Name: RemoteLoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - Robot Part
+    - Arm
+    - Leg
+    - Body
+    - Head
+    - Token
+    - Consumable
+    - Trinket
+    - Arena
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: 23d5ad1f466133476afe15ba02432a07, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 3
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 082bfa564d560ad1bbe295a1b5fa8af0, type: 2}
+  - {fileID: 11400000, guid: 77d6b09d53ae33759a4cf39ca455775b, type: 2}
+  - {fileID: 11400000, guid: ad404e3fdd0f8d8fea6ed0d3c6382096, type: 2}
+  - {fileID: 11400000, guid: 05fc63a22291e69308f1f4a565986bb6, type: 2}
+  m_ActiveProfileId: 5a5a562a17a2444c3b387c4267c1b8de
+  m_HostingServicesManager:
+    m_HostingServiceInfos: []
+    m_Settings: {fileID: 11400000}
+    m_NextInstanceId: 0
+    m_RegisteredServiceTypeRefs: []

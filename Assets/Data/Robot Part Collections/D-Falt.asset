@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dc7f1270c623f2d4b47d4981d360574, type: 3}
+  m_Name: D-Falt
+  m_EditorClassIdentifier: 
+  robotPartCollectionItems:
+  - useTextAsset: 1
+    equipSlot: 0
+    jsonFiles: {fileID: 4900000, guid: b8700e1f906dd446cbc472f9dcc0cf0b, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: 
+        nftData:
+          name: 
+          description: 
+          image: 
+        equipSlotValue: 
+        rarityValue: 
+        healthValue: 0
+        speedValue: 0
+        damageValue: 0
+        defenseValue: 0
+        weightValue: 0
+        agilityValue: 0
+        primaryColorValue: 
+        secondaryColorValue: 
+        tertiaryColorValue: 
+        itemRarity: 0
+        equipSlot: 0
+        primaryColor: {r: 0, g: 0, b: 0, a: 0}
+        secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+        tertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+        stats:
+          stats: []
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 1
+    jsonFiles: {fileID: 4900000, guid: 2022816694fb2c08bbfda6da2773f465, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: 
+        nftData:
+          name: 
+          description: 
+          image: 
+        equipSlotValue: 
+        rarityValue: 
+        healthValue: 0
+        speedValue: 0
+        damageValue: 0
+        defenseValue: 0
+        weightValue: 0
+        agilityValue: 0
+        primaryColorValue: 
+        secondaryColorValue: 
+        tertiaryColorValue: 
+        itemRarity: 0
+        equipSlot: 0
+        primaryColor: {r: 0, g: 0, b: 0, a: 0}
+        secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+        tertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+        stats:
+          stats: []
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 2
+    jsonFiles: {fileID: 4900000, guid: 6530d85e525851a4f9d0be5778b120be, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: 
+        nftData:
+          name: 
+          description: 
+          image: 
+        equipSlotValue: 
+        rarityValue: 
+        healthValue: 0
+        speedValue: 0
+        damageValue: 0
+        defenseValue: 0
+        weightValue: 0
+        agilityValue: 0
+        primaryColorValue: 
+        secondaryColorValue: 
+        tertiaryColorValue: 
+        itemRarity: 0
+        equipSlot: 0
+        primaryColor: {r: 0, g: 0, b: 0, a: 0}
+        secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+        tertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+        stats:
+          stats: []
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 3
+    jsonFiles: {fileID: 4900000, guid: 6530d85e525851a4f9d0be5778b120be, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: 
+        nftData:
+          name: 
+          description: 
+          image: 
+        equipSlotValue: 
+        rarityValue: 
+        healthValue: 0
+        speedValue: 0
+        damageValue: 0
+        defenseValue: 0
+        weightValue: 0
+        agilityValue: 0
+        primaryColorValue: 
+        secondaryColorValue: 
+        tertiaryColorValue: 
+        itemRarity: 0
+        equipSlot: 0
+        primaryColor: {r: 0, g: 0, b: 0, a: 0}
+        secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+        tertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+        stats:
+          stats: []
+        behaviours: []
+        upgrades: []
+  - useTextAsset: 1
+    equipSlot: 4
+    jsonFiles: {fileID: 4900000, guid: 60991d14ba2f62b4f9713ceeee4f90eb, type: 3}
+    equippableData:
+      equipSlot: 0
+      nftID: 
+      robotPartData:
+        itemType: 
+        nftData:
+          name: 
+          description: 
+          image: 
+        equipSlotValue: 
+        rarityValue: 
+        healthValue: 0
+        speedValue: 0
+        damageValue: 0
+        defenseValue: 0
+        weightValue: 0
+        agilityValue: 0
+        primaryColorValue: 
+        secondaryColorValue: 
+        tertiaryColorValue: 
+        itemRarity: 0
+        equipSlot: 0
+        primaryColor: {r: 0, g: 0, b: 0, a: 0}
+        secondaryColor: {r: 0, g: 0, b: 0, a: 0}
+        tertiaryColor: {r: 0, g: 0, b: 0, a: 0}
+        stats:
+          stats: []
+        behaviours: []
+        upgrades: []

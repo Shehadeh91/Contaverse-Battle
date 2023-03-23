@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Build/StartGame.unity
+    guid: 303adfabc1318f1b3b9f570e9ac60cda
+  - enabled: 1
+    path: Assets/Scenes/Build/Spacestation.unity
+    guid: 28d4ce5c93418dfd59638d1c3338f109
+  - enabled: 1
+    path: Assets/Scenes/Build/Arena.unity
+    guid: 0cc26f3bd42b59b1e8d77b1542142d8a
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: c4e8dccaa6bcb06ac9335d452129ba0f,
+      type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 3f3ffab8722d649ae8cf098d61ac25b5,
+      type: 2}
